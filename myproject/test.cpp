@@ -3,7 +3,7 @@
 #include "../include/utils.h"
 using namespace std;
 
-// g++  foo.cpp -o foo -lGL -lGLU -lglut -lX11 
+// g++  foo.cpp -o foo -lGL -lGLU -lglut
 
 // The question is  why not is necessary 
 // g++ -L /usr/lib/x86_64-linux-gnu/  foo.cpp -o foo -lGL -lGLU -lglut -l
