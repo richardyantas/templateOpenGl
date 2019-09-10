@@ -3,6 +3,13 @@
 #include "../include/utils.h"
 using namespace std;
 
+// g++  foo.cpp -o foo -lGL -lGLU -lglut -lX11 
+
+// The question is  why not is necessary 
+// g++ -L /usr/lib/x86_64-linux-gnu/  foo.cpp -o foo -lGL -lGLU -lglut -l
+
+
+
 void reshape(int w, int h)
 {
   glViewport(0, 0, w, h);       /* Establish viewing area to cover entire window. */
